@@ -13,18 +13,20 @@
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   z-index: 1000;
-  color: rgb(0, 119, 255);
+  color: greenyellow;
   font-family: 'Fira Sans', sans-serif;
-  padding-top: 13px;
+  padding-top: 16px;
   
   .text {
-    margin-top: 13px;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight:200;
   }
   a {
-    color: rgb(0, 119, 255);
+    color: greenyellow;
     text-decoration: none;
-    padding-bottom: 5px;
-    border-bottom: 1px solid transparent;
+    padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
     -webkit-transition: border-bottom 0.75s;
     transition: border-bottom 0.75s;
     &:hover {
@@ -41,7 +43,7 @@
 .front-page {
   height:99vh;
   width: 100%;
-  background: image-url('Autonomous-Vehicles2.jpg') ;
+  background: image-url('frontpage.jpg') ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -206,10 +208,10 @@ img{
 }
 
 .portfolio-strip {
-  font-size: 60px;
-  font-weight:400;
+  font-size: 80px;
+  font-weight:600;
   /* The image used */
-  background-image: image-url("portfolio-strip.jpg");
+  background-image: image-url("projects.jpg");
 
   /* Set a specific height */
   height: 180px;
@@ -223,11 +225,11 @@ img{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
   .line {
     margin:0 auto;
     width: 130px;
-    border-bottom: 2px solid #FEDC37;
+    border-bottom: 2px solid rgb(55, 75, 254);
     margin-top: 10px;
     margin-bottom: 10px;
   }
